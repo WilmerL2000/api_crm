@@ -30,7 +30,7 @@ const Formulario = ({ cliente, cargando }) => {
             let respuesta
             if (cliente.id) {
                 //Editando
-                const url = `http://localhost:4000/clientes/${cliente.id}`
+                const url = `https://my-json-server.typicode.com/WilmerL2000/api_crm/clientes/${cliente.id}`
                  respuesta = await fetch(url, {
                     method: 'PUT',
                     body: JSON.stringify(values),
@@ -40,7 +40,7 @@ const Formulario = ({ cliente, cargando }) => {
                 })
             } else {
                 // Nuevo registro
-                const url = 'http://localhost:4000/clientes'
+                const url = `https://my-json-server.typicode.com/WilmerL2000/api_crm/clientes`
                  respuesta = await fetch(url, {
                     method: 'POST',
                     body: JSON.stringify(values),

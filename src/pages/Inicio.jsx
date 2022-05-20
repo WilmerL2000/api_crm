@@ -8,7 +8,7 @@ const Inicio = () => {
     useEffect(() => {
         const getClient = async () => {
             try {
-                const url = 'http://localhost:4000/clientes'
+                const url = `https://my-json-server.typicode.com/WilmerL2000/api_crm/clientes`
                 const response = await fetch(url)
                 const result = await response.json()
                 setClientes(result)
@@ -25,7 +25,7 @@ const Inicio = () => {
 
         if (confirmar) {
             try {
-                const url = `http://localhost:4000/clientes/${id}`
+                const url = `https://my-json-server.typicode.com/WilmerL2000/api_crm/clientes/${id}`
                 const response = await fetch(url, {
                     method: 'DELETE',
                 })
