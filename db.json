@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Wilmer Lopez",
+      "empresa": "UCR",
+      "email": "wilmerlopezc93@gmail.com",
+      "telefono": "84360071",
+      "notas": "Me gusta esto",
+      "id": 1
+    },
+    {
+      "nombre": "Wendy",
+      "empresa": "Wendy Corp",
+      "email": "wendylopez@gmail.com",
+      "telefono": "84360071",
+      "notas": "vfsvfsvs",
+      "id": 2
+    },
+    {
+      "nombre": "Hector",
+      "empresa": "SuperPan",
+      "email": "hector@gmail.com",
+      "telefono": "84368748",
+      "notas": "Dormilon",
+      "id": 3
+    }
+  ]
+}
